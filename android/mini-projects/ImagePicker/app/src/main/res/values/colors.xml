@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="standardBlack">#FF1A1A1A</color>
+    <color name="standardWhite">#FFFFFFFF</color>
+
+    <color name="backgroundYellow">#FFFFF5E2</color>
+
+    <color name="imageContainer">#FFFFF1D5</color>
+    <color name="imageContainerShadowColor">#80826730</color>
+
+    <color name="pickerButtonBackground">#FF4C3100</color>
+    <color name="pickerButtonRipple">#64420C</color>
+</resources>

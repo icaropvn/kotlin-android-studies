@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="300dp"
+    android:layout_height="wrap_content"
+    android:minWidth="0dp"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:padding="20dp"
+    android:background="@drawable/dialogs_shape_customization">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Permission Required"
+        android:textSize="20sp"
+        android:textColor="@color/standardBlack"
+        android:fontFamily="@font/satoshi_bold"
+        android:layout_marginBottom="10dp"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="The app needs permission to access the camera so you can take pictures."
+        android:textSize="15sp"
+        android:textColor="@color/standardBlack"
+        android:fontFamily="@font/satoshi_regular"
+        android:layout_marginBottom="15dp"/>
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/cancel_button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:cornerRadius="10dp"
+            android:backgroundTint="@color/negativeDialogButton"
+            app:rippleColor="@color/negativeDialogButtonRipple"
+            android:text="Cancel"
+            android:textColor="@color/standardBlack"
+            android:fontFamily="@font/satoshi_regular"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintHorizontal_bias="0"/>
+
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/okay_button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:cornerRadius="10dp"
+            android:backgroundTint="@color/positiveDialogButton"
+            app:rippleColor="@color/positiveDialogButtonRipple"
+            android:text="Okay"
+            android:textColor="@color/standardBlack"
+            android:fontFamily="@font/satoshi_regular"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintHorizontal_bias="1"/>
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</LinearLayout>

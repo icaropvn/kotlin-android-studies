@@ -1,0 +1,13 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Base.Theme.Counter" parent="Theme.Material3.DayNight.NoActionBar">
+
+    </style>
+
+    <style name="DecrementButton" parent="Widget.Material3.Button">
+        <item name="android:backgroundTint">@color/standardWhite</item>
+        <item name="android:textColor">@color/standardBlack</item>
+        <item name="strokeColor">@color/primaryColor</item>
+        <item name="cornerRadius">15dp</item>
+    </style>
+</resources>

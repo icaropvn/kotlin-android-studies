@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="standardBlack">#FF1A1A1A</color>
+    <color name="standardWhite">#FFFFFFFF</color>
+
+    <color name="backgroundColor">#E4FFFA</color>
+
+    <color name="imageContainer">#C5FFF3</color>
+    <color name="imageContainerShadow">#145037</color>
+
+    <color name="takeImageButton">#052B23</color>
+    <color name="takeImageButtonRipple">#1A594B</color>
+
+    <color name="negativeDialogButton">#D5D5D5</color>
+    <color name="negativeDialogButtonRipple">#ADADAD</color>
+    <color name="positiveDialogButton">#84D0B8</color>
+    <color name="positiveDialogButtonRipple">#559982</color>
+</resources>
